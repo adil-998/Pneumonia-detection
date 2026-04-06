@@ -21,8 +21,7 @@ The model classifies chest X-ray images into:
 ## 🗂️ Project Structure
 pneumonia-detection/  
 ├── pneumonia-detection.ipynb (Main notebook)  
-├── dataset/ (Training & testing data)  
-├── models/ (Saved models)  
+├── dataset/ (Training & testing data)    
 ├── outputs/ (Graphs & predictions)  
 └── README.md  
 
@@ -34,7 +33,7 @@ pneumonia-detection/
 - NumPy  
 - Pandas  
 - Matplotlib / Seaborn  
-- OpenCV / PIL  
+
 
 ---
 
@@ -70,15 +69,15 @@ The model uses a **Convolutional Neural Network (CNN)** with:
 ---
 
 ## 📊 Results
-- Training Accuracy: XX%  
-- Validation Accuracy: XX%  
+- Training Accuracy: 87%  
+- Validation Accuracy: 87%  
 - Performance graphs available in notebook  
 
 ---
 
 ## ▶️ How to Run
 1. Install dependencies:
-   pip install tensorflow numpy pandas matplotlib opencv-python  
+   pip install tensorflow numpy pandas matplotlib  
 
 2. Open notebook:
    jupyter notebook  
@@ -96,7 +95,7 @@ PNEUMONIA
 ---
 
 ## 🎯 Future Improvements
-- Use Transfer Learning (ResNet, VGG16)  
+- Use Transfer Learning (VGG16)  
 - Hyperparameter tuning  
 - Deploy as web app (Flask / Streamlit)  
 - Real-time prediction  
